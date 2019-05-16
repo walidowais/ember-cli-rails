@@ -20,7 +20,7 @@ module EmberCli
     end
 
     def tmp
-      @tmp ||= root.join("tmp").tap(&:mkpath)
+      @tmp ||= root.join("ember_tmp").tap(&:mkpath)
     end
 
     def log
